@@ -13,6 +13,6 @@ public class Main {
         }
         byte age1 = Byte.parseByte(ages[0].trim());
         byte age2 = Byte.parseByte(ages[1].trim());
-        System.out.println("Разница в возрасте:\n"+ Calcagedif.getAgeDiff(age1, age2));
+        System.out.println("Разница в возрасте:\n"+ CalcAgeDiff.getAgeDiff(age1, age2));
     }
 }
