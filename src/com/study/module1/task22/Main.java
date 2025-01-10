@@ -16,7 +16,7 @@ public class Main {
             for (int i = 0; i < numbersString.length; i++) {
                 numbers[i] = Integer.parseInt(numbersString[i].trim());
             }
-            Printarrays.printArray(numbers);
+            PrintArrays.printArray(numbers);
         }
     }
 }

@@ -7,7 +7,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input day of the week:");
         String weekday = scanner.nextLine();
-        Calcweekendtern.chekWeekend(weekday);
+        CalcWeekendTern.chekWeekend(weekday);
     }
 }
 

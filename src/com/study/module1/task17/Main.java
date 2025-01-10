@@ -17,7 +17,7 @@ public class Main {
                 numbers[i] = Integer.parseInt(numbersString[i].trim());
             }
             System.out.println("Печатаем значения массива в консоль:");
-            Arrayprinting.printArray(numbers);// Вызываем метод для печати массива
+            ArrayPrinting.printArray(numbers);// Вызываем метод для печати массива
         }
     }
 }

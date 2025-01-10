@@ -7,6 +7,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите число:");
         int n = scanner.nextInt();
-        System.out.println("Является ли число по абсолютной величине степенью двойки:\n"+Ispower.isPowerOfTwo(n));
+        System.out.println("Является ли число по абсолютной величине степенью двойки:\n" + IsPower.isPowerOfTwo(n));
     }
 }

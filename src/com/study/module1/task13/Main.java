@@ -7,7 +7,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите возраст человека:");
         int age = scanner.nextInt();
-        Calcgroup group = new Calcgroup(); //создаем объект класса, т.к. вызываем нестатический метод
-        System.out.println("Номер группы:\n"+group.determineGroup(age));
+        CalcGroup group = new CalcGroup(); //создаем объект класса, т.к. вызываем нестатический метод
+        System.out.println("Номер группы:\n" + group.determineGroup(age));
     }
 }

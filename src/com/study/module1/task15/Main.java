@@ -7,6 +7,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input day of the week:");
         String weekDay = scanner.nextLine();
-        System.out.println("Is Weekend:\n"+ Calcweekendif.isWeekend(weekDay));
+        System.out.println("Is Weekend:\n" + CalcWeekendIf.isWeekend(weekDay));
     }
 }

@@ -13,5 +13,5 @@ public class Main {
         double c = scanner.nextDouble();
         boolean isTrue = Expression.doubleExpression(a, b, c);
         System.out.println("Правда ли, что a + b = c?\n" + isTrue);
-     }
+    }
 }

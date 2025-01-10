@@ -10,6 +10,6 @@ public class Main {
         System.out.println("Введите количество программистов:");
         int programmers = scanner.nextInt();
         int monLeft = ITCompany.drawisMonitorsCounter(monitors, programmers);
-        System.out.println("Количество мониторов, которые никому не достанутся:\n"+monLeft);
+        System.out.println("Количество мониторов, которые никому не достанутся:\n" + monLeft);
     }
 }

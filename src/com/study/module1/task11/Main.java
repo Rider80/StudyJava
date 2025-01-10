@@ -7,6 +7,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите число:");
         int n = scanner.nextInt();
-        System.out.println("Факториал равен:\n"+ Calcfactorial.factorial(n));
+        System.out.println("Факториал равен:\n" + CalcFactorial.factorial(n));
     }
 }

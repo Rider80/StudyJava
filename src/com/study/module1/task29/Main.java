@@ -8,6 +8,6 @@ public class Main {
         System.out.println("Введите целое число (long) в двойных кавычках :");
         String number = scanner.nextLine();
         number = number.substring(1, number.length() - 1); // Удаляем скобки из введенной строки
-        System.out.println("Результат вычисления :\n" + Parsas.parseAndSqrt(number));
+        System.out.println("Результат вычисления :\n" + ParseAndSqrt.parseAndSqrt(number));
     }
 }

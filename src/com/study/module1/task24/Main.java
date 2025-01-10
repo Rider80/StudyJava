@@ -19,7 +19,7 @@ public class Main {
                 secondArray[i] = Integer.parseInt(numbersString2[i].trim());
             }
 
-            int[] mergasArray = Mergeas.mergeAndSort(firstArray, secondArray);
+            int[] mergasArray = MergeAndSort.mergeAndSort(firstArray, secondArray);
             System.out.println("Соединенный и отсортированный массив:");
             System.out.println(Arrays.toString(mergasArray));
         } else {
@@ -38,7 +38,7 @@ public class Main {
                 secondArray[i] = Integer.parseInt(numbersString2[i].trim());
             }
 
-            int[] mergasArray = Mergeas.mergeAndSort(firstArray, secondArray);
+            int[] mergasArray = MergeAndSort.mergeAndSort(firstArray, secondArray);
             System.out.println("Соединенный и отсортированный массив:");
             System.out.println(Arrays.toString(mergasArray));
         }

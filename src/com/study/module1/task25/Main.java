@@ -14,6 +14,6 @@ public class Main {
             arr[i] = Integer.parseInt(numbersString[i].trim());
         }
         System.out.println("Нечетные элементы массива :");
-        Oddnum.printOddNumbers(arr);
+        OddNum.printOddNumbers(arr);
     }
 }

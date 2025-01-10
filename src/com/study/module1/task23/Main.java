@@ -1,4 +1,5 @@
 package com.study.module1.task23;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -16,7 +17,8 @@ public class Main {
             for (int i = 0; i < numbersString.length; i++) {
                 numbers[i] = Integer.parseInt(numbersString[i].trim());
             }
-            int[] subArray = Getmiddle.getArrayMiddle(numbers);
-            System.out.println(Arrays.toString(subArray));        }
+            int[] subArray = GetMiddle.getArrayMiddle(numbers);
+            System.out.println(Arrays.toString(subArray));
+        }
     }
 }
